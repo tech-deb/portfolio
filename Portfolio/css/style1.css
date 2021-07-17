@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh; 
+}
+
+#skill-bar{
+    width: 100%;
+    background: #f0eded;
+    color: rgb(219, 75, 142);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skill-container{
+    width: 100%;
+    background: rgb(224, 178, 197);
+    margin:0;
+    padding: 25px 0;
+}
+
+.skills{
+    /* background: #353b48; */
+    width: 500px;
+    margin: auto;
+    /* color: rgb(6, 19, 19) */
+}
+
+.skills li{
+    margin: 40px;
+}
+
+.bar{
+    background: #dfe3e9;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 3px;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px #2187e7; */
+}
+
+.bar span{
+    height: 10px;
+    float: left;
+    background: #ff0095;
+}
+
+
+.c{
+    animation: fill-bar 2s;
+    width: 70%;
+}
+
+.cpp{
+    animation: fill-bar 2s;
+    width: 80%;
+}
+
+.java{    
+    animation: fill-bar 2s;
+    width: 60%;
+}
+
+.html{
+    animation: fill-bar 2s;
+    width: 90%;
+}
+
+.css{
+    animation: fill-bar 2s;
+    width: 90%;
+}
+
+.js{
+    animation: fill-bar 2s;
+    width: 50%;
+}
+
+.react{
+    animation: fill-bar 2s;
+    width: 90%;
+}
+
+.mongo{
+    animation: fill-bar 2s;
+    width: 65%;
+}
+
+@keyframes fill-bar {
+    0%{
+        width: 0;
+    }
+}
+
+
+

@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.showcase{
+   position: absolute;
+   right: 0;
+   width: 100%;
+   height: 100vh; 
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    z-index: 2;
+}
+
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url('../img/menu.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url('../img/close.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+}
+
+.showcase video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(170, 100%, 32%);
+    mix-blend-mode: overlay;
+}
+
+.text{
+    position: relative;
+    z-index: 5;
+}
+
+
+.text h2{
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text h3{
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start navigation */
+
+/* .navigation{
+    background-color: #b1d3ff;
+    position: static;
+    float: top;
+
+}
+
+.navigation .navbar{
+    height: 8vh;
+    display: flex;
+    max-width: 90%;
+    margin:auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation .navbar .logo img{
+    width: 125px;
+}
+
+.navigation .navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navigation .navbar .menu ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.navigation .navbar .menu ul li{
+    margin-left: 30px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
